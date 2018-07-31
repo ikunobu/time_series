@@ -67,4 +67,6 @@ https://arxiv.org/pdf/1206.5533.pdf
 
 https://www.hellocybernetics.tech/entry/2016/11/13/035443
 
+https://postd.cc/optimizing-gradient-descent/#stochasticgradientdescent
+
 
