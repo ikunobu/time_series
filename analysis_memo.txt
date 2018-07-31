@@ -34,3 +34,37 @@
 ・エポック数は？
 →100くらい？
 
+
+以下のサイトはDL4USとかぶるが、こちらの方が解説が充実している。
+https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+
+パラメータの設定方法とか参考になる。
+https://qiita.com/t_Signull/items/21b82be280b46f467d1b
+
+ＬＳＴＭハイパーパタメータの調整が参考になる
+https://deeplearning4j.org/ja/lstm
+
+「Keras の LSTM セルに入れる入力データは、 [サンプル数, time steps, 特徴量の数]の形式の三次元配列として渡す必要があります。」ここの説明が分かりやすい。
+バッチ処理の方法も書いてある。
+https://intheweb.io/lstm-dezheng-xian-bo-woyu-ce-suru
+
+〜ＬＳＴＭのモデル参考サイト〜
+・【入門編】機械学習で仮想通貨の価格予測！KerasでLSTMモデルを構築してビットコインとイーサリアムの翌日の価格を予測する方法
+https://www.codexa.net/keras-lstm-cryptos-forecast/
+
+
+
+・RNNで来月の航空会社の乗客数を予測する：TFLearnでLSTMからGRUまで実装しよう
+https://deepage.net/deep_learning/2016/09/17/tflearn_rnn.html
+まず、学習率の設定は何においても重要になります。データセットによって大きく傾向が異なりますが、予測誤差が一気に改善する特異な地点が存在することがわかります。論文中ではまず高い学習率(1程度)から始めて、性能の改善が停止するたびに10で割る大雑把な探索が推奨されています。 一方で、隠れ層の数については非常にわかりやすい傾向が出ています。期待通り、隠れ層の数を増やせば増やすほど性能は改善しますが、そのトレードオフとして実行時間が増加します。なお、図表に示されてはいませんが、モーメンタムの値は今回の解析では値の設定による性能の変化はなかったと報告されています。BPTTの打ち切りステップ数についての言及はこの論文ではありませんでしたが、直感的には獲得したい長期依存の長さとタスクの実行時間とのバランスを取るのが標準的な戦略だと思われます。
+
+・ニューラルネット勉強会（LSTM編）
+http://isw3.naist.jp/~neubig/student/2015/seitaro-s/161025neuralnet_study_LSTM.pdf
+論文とか参考になる。
+
+ハイパーパラメータの参考になる。
+https://arxiv.org/pdf/1206.5533.pdf
+
+https://www.hellocybernetics.tech/entry/2016/11/13/035443
+
+
